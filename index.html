@@ -14,10 +14,10 @@
             <i class="fas fa-bars"></i>
             <ul>
                 <li style="--x:1;"><a href="">Trang chủ</a></li>
-                <li style="--x:2;"><a href="">Cẩm nang</a></li>
-                <li style="--x:3;"><a href="">Địa điểm nổi bật</a></li>
-                <li style="--x:4;"><a href="">Địa điểm du lịch khác</a></li>
-                <li style="--x:5;"><a href="">Review</a></li>
+                <li style="--x:2;"><a href="#DL">Cẩm nang</a></li>
+                <li style="--x:3;"><a href="#PL">Địa điểm nổi bật</a></li>
+                <li style="--x:4;"><a href="#DD">Địa điểm du lịch khác</a></li>
+                <li style="--x:5;"><a href="#RV">Review</a></li>
             </ul>
         </div>
         <div class="video-container">
@@ -27,7 +27,7 @@
     <!-- ----------DAK-LAK---------- -->
     <section class="dak-lak">
         <div class="container-dl">
-            <h1>Đắk Lắk</h1>
+            <h1 id="DL">Đắk Lắk</h1>
             <div class="dak-lak-content row">
                 <div class="dak-lak-item">
                     <div class="dak-lak-img">
@@ -55,7 +55,7 @@
     <!-- ----------PLACE---------- -->
     <section class="place">
         <div class="container">
-            <h1>Địa điểm nổi bật</h1>
+            <h1 id="PL">Địa điểm nổi bật</h1>
             <div class="place-content row">
                 <div class="place-item">
                     <div class="place-img">
@@ -148,7 +148,7 @@
     <!-- ----------DIA-DIEM-KHAC---------- -->
     <section class="tour">
         <div class="container">
-            <h1>Địa điểm du lịch khác</h1>
+            <h1 id="DD">Địa điểm du lịch khác</h1>
             <div class="tour-content row">
                 <div class="tour-content-item row">
                     <div class="tour-content-img">
@@ -157,7 +157,7 @@
                     <div class="tour-content-text">
                         <h2>Buôn Đôn</h2>
                         <p>Buôn Đôn còn có một tên gọi khác đầy thân thương đó chính là Bản Đôn. Lý giải về tên gọi của nơi đây, người Ê đê và M’nông giải thích rằng Buôn Đôn có nghĩa là “làng đảo”. Ngôi làng được xây dựng trên một hòn đảo nổi của sông Sêrêpốk huyền thoại.</p>
-                        <button>Khám phá</button>
+                        <button><a href="https://vi.wikipedia.org/wiki/Buôn_Đôn">Khám phá</a></button>
                     </div>
                 </div>
                 <div class="tour-content-item row">
@@ -167,7 +167,7 @@
                     <div class="tour-content-text">
                         <h2>Làng Cà Phê Trung Nguyên</h2>
                         <p>Làng cà phê Trung Nguyên là một cụm công trình kiến trúc có diện tích khoảng 20.000m<sup>2</sup>. Đây là một địa điểm du lịch nổi tiếng ở Tây Nguyên với không gian kiến trúc độc đáo đậm đà bản sắc dân tộc và không gian cà phê đặc sắc.</p>
-                        <button>Khám phá</button>
+                        <button><a href="https://vi.wikipedia.org/wiki/Làng_cà_phê_Trung_Nguyên">Khám phá</a></button>
                     </div>
                 </div>
                 <div class="tour-content-item row">
@@ -177,7 +177,7 @@
                     <div class="tour-content-text">
                         <h2>Chùa sắc tứ Khải Đoan</h2>
                         <p>Chùa sắc tứ Khải Đoan là ngôi chùa lớn nhất thành phố Buôn Ma Thuột và cả tỉnh Đắk Lắk, nằm ở phường Thống Nhất. Đây cũng là ngôi chùa lần đầu tiên được xây dựng ở Cao Nguyên. Tên gọi Khải Đoan là ghép từ tên vua Khải Định và vợ ông là Đoan Huy hoàng hậu.</p>
-                        <button>Khám phá</button>
+                        <button><a href="https://vi.wikipedia.org/wiki/Chùa_Khải_Đoan">Khám phá</a></button>
                     </div>
                 </div>
                 <div class="tour-content-item row">
@@ -187,7 +187,7 @@
                     <div class="tour-content-text">
                         <h2>Vườn quốc gia Yok Đôn</h2>
                         <p>Vườn quốc gia Yok Đôn nằm cách trung tâm thành phố Buôn Mê Thuột khoảng 40 cây số. Nó sở hữu một diện tích vô cùng rộng lớn, lên tới hơn 115.000 ha và hơn 133.000 ha vùng đệm bao quanh. Nhờ thế mà khi tới đây, các du khách sẽ được chìm trong không gian siêu rộng của núi rừng và bạt ngàn cây xanh đầy hoang sơ.</p>
-                        <button>Khám phá</button>
+                        <button><a href="https://vi.wikipedia.org/wiki/Vườn_quốc_gia_Yok_Đôn">Khám phá</a></button>
                     </div>
                 </div>
                 <div class="tour-content-item row">
@@ -197,7 +197,7 @@
                     <div class="tour-content-text">
                         <h2>Thác bảy nhánh</h2>
                         <p>Dòng sông Sêrêpôk chảy về đây gặp một ghềnh đá lớn chia làm 7 dòng sông nhỏ chảy qua các tảng đá tạo thành 6 hòn đảo giữa các nhánh sông, vì vậy gọi là Thác Bảy Nhánh. Đứng trên cao nhìn xuống, Thác Bảy Nhánh như một bàn tay khổng lồ có bảy ngón xòe ra giữa ghềnh thác trắng xóa mà "cổ tay" là đầu thác rộng khoảng 500m.</p>
-                        <button>Khám phá</button>
+                        <button><a href="https://vi.wikipedia.org/wiki/Thác_Bảy_Nhánh">Khám phá</a></button>
                     </div>
                 </div>
                 <div class="tour-content-item row">
@@ -207,7 +207,57 @@
                     <div class="tour-content-text">
                         <h2>Hồ Ea-Kao</h2>
                         <p>Hồ Ea Kao không được lớn như hồ Lăk mà sở hữu diện tích nghiêm tốn hơn là 120 ha. Thế nhưng nó lại sở hữu một vẻ đẹp thơ mộng, lãng mạn vô cùng. Đặc biệt là vào các buổi chiều tà. Nơi này đã được phát triển để đưa vào phục vụ du lịch, bởi vậy nó còn có cả các khu vui chơi, nghỉ ngơi và nhà hàng để phục vụ cho du khách.</p>
-                        <button>Khám phá</button>
+                        <button><a href="https://vi.wikipedia.org/wiki/Hồ_Ea_Kao">Khám phá</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------REVIEW----------- -->
+    <section class="review">
+        <div class="container">
+            <h1 id="RV">Review</h1>
+            <div class="review-content row">
+                <div class="review-item">
+                    <div class="review-item-text">
+                        <img src="pictures/review.png" alt="">
+                        <p><span>&ldquo;</span>Đắk Lắk nổi tiếng với những nét đẹp đơn sơ mộc mạc, nơi đây không chỉ xuất phát từ không gian thiên nhiên núi rừng đại ngàn, mà còn bởi nét văn hóa truyền thống của đồng bào dân tộc vùng Tây Nguyên. Bạn nên tới nơi đây một lần để trải nghiệm cảm giác hoà mình vào núi rừng Tây Nguyên.<span>&rdquo;</span>
+                        </p>
+                    </div>
+                    <div class="review-item-img row">
+                        <img src="pictures/img 1.jpg" alt="">
+                        <div class="review-item-img-text">
+                            <h3>Nguyễn Quang Huy</h3>
+                            <p>ngày 23/1/2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-item-text">
+                        <img src="pictures/review.png" alt="">
+                        <p><span>&ldquo;</span>Đắk Lắk đi liền với câu hát “Có cái nắng, có cái gió, có nỗi nhớ không mang tên”, quả là như vậy bởi ai đã từng một lần ghé qua nơi đây, đều sẽ thấy nơi này bình yên đến lạ.Thật ra, mọi người sẽ luôn nghĩ Tây Nguyên chẳng có gì đâu, đi làm gì? Nhưng hãy thử khám phá Đắk Lắk một lần đi, bạn sẽ bất ngờ đấy<span>&rdquo;</span>
+                        </p>
+                    </div>
+                    <div class="review-item-img row">
+                        <img src="pictures/img 2.png" alt="">
+                        <div class="review-item-img-text">
+                            <h3>Nguyễn Quang Huy</h3>
+                            <p>ngày 23/1/2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-item-text">
+                        <img src="pictures/review.png" alt="">
+                        <p><span>&ldquo;</span>Nhắc đến Đắk Lắk, người ta nhớ ngay đến cái nôi của văn hóa cồng chiêng, thủ phủ cà phê Việt Nam và những văn hóa truyền thống đặc sắc của đồng bào dân tộc Tây Nguyên. Đến Đắk Lắk không chỉ để khám phá những điều đặc trưng của vùng đất này mà du khách còn được hòa mình vào khung cảnh thiên nhiên hoang sơ, hùng vĩ.<span>&rdquo;</span>
+                        </p>
+                    </div>
+                    <div class="review-item-img row">
+                        <img src="pictures/img 3.jpg" alt="">
+                        <div class="review-item-img-text">
+                            <h3>Nguyễn Quang Huy</h3>
+                            <p>ngày 23/1/2022</p>
+                        </div>
                     </div>
                 </div>
             </div>
